@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <canvas id="mainstage"></canvas>
+    <div id="opacityOverlay"></div>
+    <div class="wrapper">
+        <div class="title">
+            <p class="h1">Example form</p>
+            <p>
+                <span class="stat">All: <span class="numberAll"></span></span>
+                <span class="stat">Required: <span class="need"></span></span>
+                <span class="stat">Success: <span class="success"></span> / <span class="main"></span></span>
+                <span class="stat">Error: <span class="error"></span> / <span class="main2"></span></span>
+            </p>
+        </div>
+        <form class="form" name="form">
+            <div class="left">
+                <label class="label label-spec">
+                    <p class="before">Name</p>
+                    <p class="for-inp">
+                        <input data-must data-regex='text' class="inputs" type="text" name="name">
+                        <img src="./images/warning.svg" class="icon" alt="">
+                    </p>
+                    <p class="after">Need to fill</p>
+                </label>
+                <label class="label">
+                    <p class="before just-before">Surname</p>
+                    <p class="for-inp">
+                        <input class="inputs just-inp" type="text" name="surname">
+                    </p>
+                </label>
+                <label class="label label-spec">
+                    <p class="before">Email adrres</p>
+                    <p class="for-inp">
+                        <input data-must data-regex='email' class="inputs" type="text" name="email">
+                        <img src="./images/warning.svg" class="icon" alt="">
+                    </p>
+                    <p class="after">Need to fill</p>
+                </label>
+                <label class="label label-spec">
+                    <p class="before  ">Phone number</p>
+                    <p class="for-inp">
+                        <input data-must data-regex='number' class="inputs" type="text" name="numberYour">
+                        <img src="./images/warning.svg" class="icon" alt="">
+
+                    </p>
+                    <p class="after">Need to fill</p>
+
+                </label>
+                <label class="label label-spec">
+                    <p class="before">Your Mom’s name</p>
+                    <p class="for-inp">
+                        <input data-must data-regex='number' class="inputs" type="text" name="numberMom">
+                        <img src="./images/warning.svg" class="icon" alt="">
+                    </p>
+                    <p class="after">Need to fill</p>
+
+                </label>
+                <label class="label">
+                    <p class="before just-before">Your Pap’s name</p>
+                    <p class="for-inp">
+                        <input class="inputs just-inp" type="text" name="number">
+                    </p>
+                </label>
+
+
+            </div>
+            <div class="right">
+                <label class="label label-spec">
+                    <p class="before">Age</p>
+                    <p class="for-inp">
+                        <input data-must data-regex='age' class="inputs" type="text" name="age">
+                        <img src="./images/warning.svg" class="icon" alt="">
+                    </p>
+                    <p class="after">Need to fill</p>
+                </label>
+                <label class="label label-spec">
+                    <p class="before">About you</p>
+                    <p class="for-inp">
+                        <input data-must data-regex='text' class="inputs" type="text" name="aboutyou">
+                        <img src="./images/warning.svg" class="icon" alt="">
+                    </p>
+                    <p class="after">Need to fill</p>
+                </label>
+                <label class="label label-spec">
+                    <p class="before">What is JavaScript</p>
+                    <p class="for-inp">
+                        <input data-must data-regex='text' class="inputs" type="text" name="javascript">
+                        <img src="./images/warning.svg" class="icon" alt="">
+                    </p>
+                    <p class="after">Need to fill</p>
+                </label>
+                <label class="label label-spec">
+                    <p class="before">What is HTML</p>
+                    <p class="for-inp">
+                        <input data-must data-regex='text' class="inputs" type="text" name="html">
+                        <img src="./images/warning.svg" class="icon" alt="">
+                    </p>
+                    <p class="after">Need to fill</p>
+                </label>
+                <label class="label label-spec">
+                    <p class="before">CSS</p>
+                    <p class="for-inp">
+                        <input data-must data-regex='text' class="inputs" type="text" name="css">
+                        <img src="./images/warning.svg" class="icon" alt="">
+                    </p>
+                    <p class="after">Need to fill</p>
+                </label>
+                <label class="label">
+                    <p class="before just-before">Your favourite car</p>
+                    <p class="for-inp">
+                        <input class="inputs just-inp" type="text" name="car">
+                    </p>
+                </label>
+            </div>
+            <button class="btn">Save changes</button>
+        </form>
+
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    padding-bottom: 100px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 641px;
+    height: fit-content;
+    margin: 42px auto;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+.h1 {
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 56px;
+    margin-bottom: 10px;
+}
+
+.stat {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 20px;
+}
+
+.before {
+    font-size: 14px;
+    line-height: 17px;
+    color: #4200FF;
+    margin: 0px 8px;
+    margin-bottom: 6px;
+}
+
+.inputs {
+    background: #FFFFFF;
+    border: 2px solid #543FD3;
+    box-sizing: border-box;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+    margin: 0px 8px;
+    width: 250px;
+    height: 59px;
+    padding: 20px 12px;
+    display: block;
+}
+
+.after {
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #595959;
+    margin: 0px 8px;
+    margin-top: 6px;
+}
+
+.label {
+    display: block;
+}
+
+.form {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+    padding-right: 24px;
+}
+
+.left, .right {
+    width: 277px;
+    height: fit-content;
+}
+
+.for-inp {
+    width: 277px;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    display: block;
+    border: none;
+    background-color: transparent;
+    opacity: 0;
+    transition: 200ms;
+}
+
+.just-inp {
+    border: 1px solid #949494;
+}
+
+.just-before {
+    color: #000000;
+}
+
+.label {
+    margin: 33px 0 34px 0;
+}
+
+.label-spec {
+    margin: 20px 0 20px 0;
+}
+
+.form {
+    position: relative;
+}
+
+.btn {
+    position: absolute;
+    bottom: -47px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    width: 277px;
+    height: 59px;
+    padding: 20px 12px;
+    background: #4200FF;
+    border: 2px solid #4200FF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+    cursor: pointer;
+}
+
+.main, .main2, .success, .numberAll, .need, .error {
+    
+}
+
+.wrong {
+    color: #EE0004;
+}
+
+.img-true {
+    opacity: 1;
+}
+
+.inp-true {
+    border: 2px solid #EE0004;
+}
+
+.wrapper {}
+
+#mainstage {
+    position: relative;
+    z-index: 9;
+    height: 100vh;
+    width: 100vw;
+}
